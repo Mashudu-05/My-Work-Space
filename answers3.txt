@@ -1,0 +1,29 @@
+1. The "P" in HTTP stands for "Protocol." 
+A protocol is a set of rules and standards that define how data is transmitted and received over a network. 
+It ensures that different systems and devices can communicate with each other effectively by following a 
+common structure and procedures.
+
+2. HTTP is built on top of the Transmission Control Protocol (TCP). TCP ensures reliable, ordered, 
+and error-checked delivery of data between applications over the internet.
+
+3. If a request is successful, the status code of the response will be 200 OK.
+
+4. A stateless protocol is a communication protocol in which each request from a client to a server 
+is independent and does not retain any information about previous requests. 
+This means the server does not store any session data between requests. 
+HTTP is an example of a stateless protocol.
+
+5. The valid MIME types from the given options are:
+
+b. image/jpeg
+
+c. text/javascript
+
+f. text/calendar
+
+The other options are either incorrectly formatted or do not exist as standard MIME types.
+
+6. If a server does not allow permission to request a specific resource, 
+the expected status message is 403 Forbidden. This indicates that the request was understood by 
+the server but it refuses to authorize access to the resource.
+

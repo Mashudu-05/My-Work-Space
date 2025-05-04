@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashudu Siboyeboyi - Online CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            background: #004080;
+            color: white;
+            padding: 20px;
+        }
+        header img {
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004080;
+            border-bottom: 2px solid #004080;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        a {
+            color: #004080;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #004080;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #002d5a;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #004080;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mashudu Siboyeboyi</h1>
+        <img src="your-image.jpg" alt="Mashudu Siboyeboyi" width="150">
+        <p>Software Engineer | Test Analyst | AI Enthusiast</p>
+    </header>
+    
+    <section>
+        <h2>About Me</h2>
+        <p>I am a passionate Software Engineer with experience in Python, Django, and Test Automation...</p>
+    </section>
+    
+    <section>
+        <h2>Contact Details</h2>
+        <p>Email: <a href="mailto:Mashudu0511@gmail.com">Mashudu0511@gmail.com</a></p>
+        <p>Phone: +27 797930503</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/mashudu-siboyeboyi" target="_blank">linkedin.com/in/mashudu-siboyeboyi</a></p>
+    </section>
+    
+    <section>
+        <h2>Skills & Competencies</h2>
+        <ul>
+            <li>Python, Django</li>
+            <li>Test Automation & Selenium</li>
+            <li>Machine Learning & AI</li>
+            <li>REST API Development</li>
+            <li>Software Testing (ISTQB Certified)</li>
+            <li>Mentoring & Technical Training</li>
+        </ul>
+    </section>
+    
+    <section>
+        <h2>Education</h2>
+        <p>HyperionDev - Software Engineering</p>
+        <p>Salesforce Certified AI Associate</p>
+        <p>ISTQB Foundation Certificate</p>
+    </section>
+    
+    <section>
+        <h2>Work Experience</h2>
+        <p>Software Engineer & Test Analyst - Various Projects</p>
+        <p>Developed AI-powered applications and integrated test automation into enterprise solutions.</p>
+    </section>
+    
+    <section>
+        <h2>Search My CV</h2>
+        <form method="GET" action="search-results.html">
+            <input type="text" name="query" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Contact Me</h2>
+        <form method="POST" action="contact-submit.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Mashudu Siboyeboyi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

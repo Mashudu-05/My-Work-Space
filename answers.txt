@@ -1,0 +1,6 @@
+| System | Recommended Software Model | Reasons |
+|--------|-----------------------------|---------|
+| Anti-lock Braking | Waterfall Model | Well-defined requirements |
+| Virtual Reality for Maintenance | Spiral Model | Iterative development |
+| University Accounting | Incremental Model | Minimizing disruption |
+| Interactive Travel Planning | Agile Model | Flexibility and collaboration |

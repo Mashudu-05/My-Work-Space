@@ -1,0 +1,34 @@
+1. Layered Architecture
+Layered architecture is suitable when there is a need for separation of concerns and modularity. It allows for easy maintenance, scalability, and reusability of components. Some real-world examples where layered architecture is appropriate are:
+
+Examples
+-Web Application: In a web application, layered architecture can be used to separate the presentation layer (UI), business logic layer, and data access layer. This separation allows for easier development, testing, and maintenance of each layer independently.
+-Operating System: Operating systems like Windows and Linux use layered architecture to separate the kernel, device drivers, system services, and user interface. This separation enables better security, stability, and extensibility of the operating system.
+
+2. Repository Architecture
+Repository architecture is suitable when there is a need to abstract the data access layer and provide a consistent interface for accessing data. It promotes separation of concerns and allows for easier testing and maintenance. Some real-world examples where repository architecture is appropriate are:
+
+Examples
+-E-commerce Platform: An e-commerce platform can use repository architecture to abstract the data access layer and provide a unified interface for accessing products, orders, and customer information. This allows for easier integration with different databases and improves code maintainability.
+-Content Management System: A content management system can use repository architecture to provide a common interface for managing content across different types of data sources, such as databases, file systems, and external APIs. This abstraction simplifies content management and allows for flexibility in choosing different data storage options.
+
+3. Client-Server Architecture
+Client-server architecture is suitable when there is a need for distributed computing, scalability, and separation of concerns between the client and server components. Some real-world examples where client-server architecture is appropriate are:
+
+Examples
+-Email System: An email system uses client-server architecture, where the email client (e.g., Outlook) communicates with the email server (e.g., Exchange) to send, receive, and store emails. This architecture allows for centralized management of emails, efficient storage, and synchronization across multiple devices.
+-Online Banking System: An online banking system uses client-server architecture to handle user requests (client) and process transactions, retrieve account information, and perform security checks (server). This architecture allows for secure communication, scalability, and separation of sensitive data from the client-side.
+
+4.Pipe and Filter Architecture
+Pipe and filter architecture is suitable when there is a need for data processing and transformation in a modular and reusable manner. It allows for easy composition of filters and supports parallel processing. Some real-world examples where pipe and filter architecture is appropriate are:
+
+Examples
+-Image Processing System: An image processing system can use pipe and filter architecture to apply a series of filters (e.g., blur, sharpen, resize) to an image. Each filter acts as a separate component, and the output of one filter becomes the input for the next filter. This architecture enables flexible and efficient image processing.
+-Data Analytics Pipeline: A data analytics pipeline can use pipe and filter architecture to process and analyze large volumes of data. Each filter in the pipeline performs a specific data transformation or analysis task, and the output is passed to the next filter. This architecture allows for scalability, fault tolerance, and easy integration of new filters.
+
+*Systems Combining Multiple Patterns
+
+These examples were chosen because they demonstrate the combination of different patterns to address specific requirements and achieve desired architectural qualities.
+
+1.Microservices Architecture: Microservices architecture combines layered architecture and client-server architecture. Each microservice can have its own layered architecture, with separate components for presentation, business logic, and data access. The communication between microservices follows the client-server architecture pattern, where clients (other microservices or user interfaces) interact with the microservices through APIs.
+2. Event-Driven Architecture: Event-driven architecture combines repository architecture and pipe and filter architecture. The repository pattern is used to store and retrieve events, while the pipe and filter pattern is used to process and transform events as they flow through the system. This architecture allows for loose coupling, scalability, and real-time event processing.

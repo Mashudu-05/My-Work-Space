@@ -1,0 +1,11 @@
+* How does the waterfall methodology differ from agile?
+  The waterfall methodology follows a linear and sequential approach, where each phase must be completed before the next one begins. In contrast, agile is iterative and flexible, allowing for continuous feedback and adaptation throughout the development process.
+
+* Reread "Agile Manifesto". Can you think of a situation in which one or more of the four "values" could get a software team into trouble?
+  The Agile Manifesto values "Individuals and interactions over processes and tools," "Working software over comprehensive documentation," "Customer collaboration over contract negotiation," and "Responding to change over following a plan." One situation where these values could lead to trouble is if the team prioritizes individual preferences over established processes, leading to inconsistency and lack of standardization.
+
+* Describe the agile method in your own words.
+  Agile is a software development approach that emphasizes iterative development, collaboration, flexibility, and customer feedback. It involves breaking the project into small, manageable increments, allowing for continuous improvement and adaptation to changing requirements.
+
+* Why do you think requirements change so much?
+  Requirements change due to evolving business needs, market dynamics, technological advancements, and customer feedback. As stakeholders gain a better understanding of the project, they often realize the need for adjustments to meet the desired outcomes.
